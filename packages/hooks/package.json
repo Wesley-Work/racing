@@ -1,0 +1,6 @@
+{
+  "name": "@rac/hooks",
+  "private": true,
+  "main": "index.ts",
+  "license": "MIT"
+}

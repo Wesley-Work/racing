@@ -1,0 +1,5 @@
+{
+  "name": "@rac/config",
+  "private": true,
+  "main": "index.ts"
+}
