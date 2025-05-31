@@ -9,11 +9,8 @@
     "lint:tsc": "tsc --noEmit",
     "lint": "pnpm lint:tsc && eslint --ext .vue,.js,.ts,.tsx ./packages --max-warnings 0 --cache",
     "lint:fix": "eslint --ext .vue,.js,.ts,.tsx ./packages --max-warnings 0 --fix --cache",
-    "dev:client": "pnpm -C packages/client dev",
-    "build:client": "pnpm -C packages/client build",
-    "dev:service": "pnpm -C packages/service dev",
-    "start:service": "pnpm -C packages/service start",
-    "dev": "run-p dev:client dev:service"
+    "dev": "pnpm -C packages/client dev",
+    "build": "pnpm -C packages/client build"
   },
   "license": "MIT",
   "dependencies": {
