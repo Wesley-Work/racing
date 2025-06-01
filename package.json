@@ -19,7 +19,7 @@
     "@rac/utils": "workspace:^",
     "@rac/types": "workspace:^",
     "@babel/runtime": "^7.22.6",
-    "dayjs": "1.11.10",
+    "dayjs": "1.11.13",
     "lodash-es": "^4.17.21"
   },
   "peerDependencies": {
