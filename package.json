@@ -14,12 +14,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@rac/hooks": "workspace:^",
-    "@rac/utils": "workspace:^",
-    "@rac/types": "workspace:^",
     "@babel/runtime": "^7.22.6",
+    "@rac/client": "workspace:^",
+    "@rac/hooks": "workspace:^",
+    "@rac/types": "workspace:^",
+    "@rac/utils": "workspace:^",
     "dayjs": "1.11.10",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "vue-router": "^4.5.1"
   },
   "peerDependencies": {
     "vue": ">=3.1.0"

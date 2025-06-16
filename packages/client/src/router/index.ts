@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw, RouterOptions } from 'vue-router';
 import RenderComponents from './renderComponent';
-import { routerMaps } from '@rac/config';
+import { routerMaps } from '@rac/config/routerMaps';
 
 const routes: RouteRecordRaw[] = [
   {
@@ -10,11 +10,11 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/',
-    redirect: '/',
+    redirect: '/demo',
   },
   {
     path: '/:w+',
-    redirect: '/',
+    redirect: '/demo',
   },
 ];
 
