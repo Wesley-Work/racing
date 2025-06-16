@@ -41,6 +41,10 @@
 
     /* Completeness */
     "skipLibCheck": true,
+
+    "paths": {
+      "@rac/*": ["/packages/config/*"]
+    }
     
   },
   "include": [

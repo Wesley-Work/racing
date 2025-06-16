@@ -14,7 +14,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@rac/config": "workspace:^",
     "@rac/hooks": "workspace:^",
     "@rac/utils": "workspace:^",
     "@rac/types": "workspace:^",

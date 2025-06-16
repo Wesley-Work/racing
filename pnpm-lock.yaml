@@ -11,9 +11,6 @@ importers:
       '@babel/runtime':
         specifier: ^7.22.6
         version: 7.27.3
-      '@rac/config':
-        specifier: workspace:^
-        version: link:packages/config
       '@rac/hooks':
         specifier: workspace:^
         version: link:packages/hooks
@@ -238,8 +235,6 @@ importers:
       vue-tsc:
         specifier: ^2.2.4
         version: 2.2.10(typescript@5.8.3)
-
-  packages/config: {}
 
   packages/hooks: {}
 
