@@ -1,11 +1,8 @@
 <template>
   <router-view></router-view>
-  <SuzukaTrack></SuzukaTrack>
 </template>
 
-<script setup>
-import SuzukaTrack from './components/suk.vue';
-</script>
+<script setup></script>
 
 <style scoped>
 .track-container {

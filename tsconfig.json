@@ -41,7 +41,11 @@
 
     /* Completeness */
     "skipLibCheck": true,
-    
+    "types": ["vue-router"],
+
+    "paths": {
+      "@rac/config/*": ["packages/config/*"]
+    },
   },
   "include": [
     "./**/*.ts",

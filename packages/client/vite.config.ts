@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 
 const srcRootPath = path.resolve(__dirname, './src');
-// const packagesRootPath = path.resolve(__dirname, '../');
+const packagesRootPath = path.resolve(__dirname, '../');
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -17,6 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': srcRootPath,
+      '@rac/config': path.resolve(packagesRootPath, 'config'),
     },
   },
   plugins: [vue(), vueJsx()],
