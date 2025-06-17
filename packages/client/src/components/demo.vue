@@ -139,7 +139,7 @@ function animateBall() {
       t = 0;
     }
     requestAnimationFrame(frame);
-    console.log(index.value);
+    // console.log(index.value);
   }
 
   requestAnimationFrame(frame);
